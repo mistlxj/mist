@@ -58,7 +58,7 @@ public class QuickSort {
 
 
         int[] brr = {23,5,8,36,1,9};
-        int[] bes = quickSort(brr, 0, arr.length - 1);
+        int[] bes = nonRecQuickSort(brr, 0, arr.length - 1);
         System.out.println(Arrays.toString(bes));
     }
 }
