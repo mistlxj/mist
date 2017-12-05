@@ -1,4 +1,4 @@
-package a.list;
+package interview.basicAlogrithm.list;
 
 public class ReverseList {
     public static Node reverseList(Node head) {

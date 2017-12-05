@@ -1,4 +1,4 @@
-package a.sort;
+package interview.basicAlogrithm.sort;
 
 import java.util.Arrays;
 import java.util.LinkedList;
