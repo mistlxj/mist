@@ -1,4 +1,4 @@
-package e.interview.netEase;
+package interview.netEase;
 
 
 public class Test1 {

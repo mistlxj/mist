@@ -1,4 +1,4 @@
-package e.lock;
+package e.juc.lock;
 
 import java.util.Date;
 
