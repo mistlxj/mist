@@ -1,9 +1,6 @@
 package thinkingJava.generic.generator.fibonacciGen;
 
-import com.mmc.tools.util.ListUtil;
-
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * Created by lixiaojian on 2017/8/17.
