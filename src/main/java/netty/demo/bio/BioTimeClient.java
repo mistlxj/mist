@@ -1,4 +1,4 @@
-package netty.demo;
+package netty.demo.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
