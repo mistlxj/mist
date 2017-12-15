@@ -3,6 +3,7 @@ package thinkingJava.nio;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.InetSocketAddress;
 import java.nio.channels.FileChannel;
 
 public class ChannelCopy {
@@ -20,7 +21,7 @@ public class ChannelCopy {
 //            buffer.clear();
 //        }
 
-        //2 第二种方法
+        //2 第二种方法【零拷贝】
         in.transferTo(0, in.size(), out);
         out.transferFrom(in, 0, in.size());
 
