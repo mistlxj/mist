@@ -15,7 +15,12 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierDemo {
     public static void main(String[] args) {
         int totalThreadNum = 5;
-        final CyclicBarrier barrier = new CyclicBarrier(5);
+        final CyclicBarrier barrier = new CyclicBarrier(5, new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("-------------");
+            }
+        });
         for (int i=0;i<totalThreadNum;i++) {
             final String threadName = "Thread" + i;
             new Thread(new Runnable() {
