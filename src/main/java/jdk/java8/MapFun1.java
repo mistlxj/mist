@@ -1,4 +1,4 @@
-package java8;
+package jdk.java8;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
