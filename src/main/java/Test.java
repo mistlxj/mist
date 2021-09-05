@@ -49,7 +49,7 @@ public class Test {
 
         Type ctype = new TypeToken<List<Long>>() {}.getType();
 
-
+        ThreadLocal<String> tl = new InheritableThreadLocal<>();
 
     }
 }
